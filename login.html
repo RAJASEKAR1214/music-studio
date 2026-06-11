@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forum Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#">Home page</a>
+            <a href="#">Register</a>
+        </div>
+
+        <div class="nav-right">
+            <i class="fas fa-filter"></i>
+            <i class="fas fa-adjust"></i>
+            <i class="fas fa-search"></i>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search something...">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Container -->
+    <div class="login-container">
+
+        <div class="login-header">
+            <i class="fas fa-user-secret"></i>
+            <span>LOGIN</span>
+        </div>
+
+        <div class="login-body">
+
+            <div class="form-group">
+                <label>Username:</label>
+                <input type="text">
+            </div>
+
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password">
+            </div>
+
+            <div class="form-group">
+                <label>Minutes to stay logged in:</label>
+                <input type="number" value="60" class="small-input">
+            </div>
+
+            <div class="form-group">
+                <label>Always stay logged in:</label>
+                <input type="checkbox" class="check">
+            </div>
+
+            <button class="login-btn">Login</button>
+
+            <div class="forgot">
+                <a href="#">Forgot your password?</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#"> Home page</a>
+            <a href="#">Register</a>
+        </div>
+
+        <div class="nav-right">
+            <i class="fas fa-filter"></i>
+            <i class="fas fa-adjust"></i>
+            <i class="fas fa-search"></i>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search something...">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <i class="fas fa-home"></i>
+        <span>getmusicbee.com</span>
+        <span class="arrow">›</span>
+        <span>Register</span>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="register-box">
+
+        <div class="title">
+            <h2>REGISTRATION FORM</h2>
+            <p>Required Information</p>
+        </div>
+
+        <form>
+
+            <div class="row">
+                <label>Username:</label>
+                <div class="input-area">
+                    <input type="text">
+                    <span class="help">?</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <label>Email:</label>
+                <div class="input-area">
+                    <input type="email">
+                </div>
+            </div>
+
+            <div class="row">
+                <label>Allow users to email me:</label>
+                <input type="checkbox">
+            </div>
+
+            <div class="row">
+                <label>Choose password:</label>
+                <div class="input-area">
+                    <input type="password" class="password">
+                    <span class="warning">⚠</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <label>Verify password:</label>
+                <div class="input-area">
+                    <input type="password" class="password">
+                    <span class="warning">⚠</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <label>
+                    Allow the administrators to send me important
+                    news by email:
+                </label>
+                <input type="checkbox">
+            </div>
+
+            <!-- Verification -->
+
+            <div class="verification-header">
+                Verification
+            </div>
+
+            <div class="captcha-box">
+
+                <div class="captcha-image">
+                    M3VUX
+                </div>
+
+                <p>
+                    Listen to the letters /
+                    <a href="#">Request another image</a>
+                </p>
+
+                <label>
+                    Type the letters shown in the picture:
+                </label>
+
+                <input type="text" class="captcha-input">
+
+                <button type="submit" class="register-btn">
+                    Register
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
